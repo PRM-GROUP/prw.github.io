@@ -2,7 +2,7 @@
   "name": "prm-gravacoes",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ismaeldan.github.io/prm.github.io/",
+  "homepage": "https://ismaeldan.github.io/prw.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/ismaeldan/prm.github.io.git"
+    "deploy": "gh-pages -d dist -r https://github.com/ismaeldan/prw.github.io"
   },
   "dependencies": {
     "react": "^19.1.0",

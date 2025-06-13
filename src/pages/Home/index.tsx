@@ -22,7 +22,7 @@ const [activeLink, setActiveLink] = useState<string>('');
     home: useRef<HTMLElement | null>(null),
     about: useRef<HTMLElement | null>(null),
     services: useRef<HTMLElement | null>(null),
-    prw_embalagens: useRef<HTMLElement | null>(null),
+    prm_tecprint: useRef<HTMLElement | null>(null),
     contact: useRef<HTMLElement | null>(null),
   };
 
@@ -138,7 +138,7 @@ const [activeLink, setActiveLink] = useState<string>('');
       <div className="divider-1"></div>
 
       {/* PRM TECPRINT */}
-      <section className={styles.main__PRW} id='prw_embalagens' ref={sectionsRef.prw_embalagens}>
+      <section className={styles.main__PRW} id='prm_tecprint' ref={sectionsRef.prm_tecprint}>
         <div className={`${styles.container__prw} container`}>
           <div className={styles.image__prw}>
             <img src={PRM_Logo} alt="Logo da PRM" />
@@ -146,7 +146,7 @@ const [activeLink, setActiveLink] = useState<string>('');
           <div className={styles.text__prw}>
             <h2>Sua Marca, Nossa Arte PRW Embalagens</h2>
             <p>Transforme seus produtos com embalagens de papel personalizadas que refletem a essência da sua marca e encantam seus clientes.</p>
-            <Link className={styles.button} to="/PRW_Embalagens">Conheça a PRM TECPRINT</Link>
+            <a href="https://ismaeldan.github.io/prm.github.io/#home" className={styles.button}target='_blanck'>Conheça a PRM TECPRINT</a>
           </div>
         </div>
       </section>
