@@ -5,7 +5,6 @@ import whats from '../../assets/whatsapp.svg'
 import { HashLink as Link } from 'react-router-hash-link';
 
 export function Footer() {
-   console.log('Renderizando Footer...');
   return (
     <footer id='footer'>
       <div className={`${styles.footer} container`}>
