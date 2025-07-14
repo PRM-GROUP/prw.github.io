@@ -146,7 +146,7 @@ const [activeLink, setActiveLink] = useState<string>('');
           <div className={styles.text__prw}>
             <h2>Sua Marca, Nossa Arte PRW Embalagens</h2>
             <p>Transforme seus produtos com embalagens de papel personalizadas que refletem a essência da sua marca e encantam seus clientes.</p>
-            <a href="https://ismaeldan.github.io/prm.github.io/#home" className={styles.button}target='_blanck'>Conheça a PRM TECPRINT</a>
+            <a href="https://prm-group.github.io/prm.github.io/#home" className={styles.button}target='_blanck'>Conheça a PRM TECPRINT</a>
           </div>
         </div>
       </section>
