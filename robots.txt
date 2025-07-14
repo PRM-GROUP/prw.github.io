@@ -1,2 +1,2 @@
 User-agent: * Allow: / 
-#Sitemap: https://ismaeldan.github.io/prm.github.io/sitemap.xml
+#Sitemap: https://prm-group.github.io/prm.github.io/sitemap.xml
